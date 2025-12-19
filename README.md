@@ -11,7 +11,7 @@ A full-stack **Venue Booking System** with backend APIs and a React dashboard fr
 ## **Live Demo**
 
 - **Backend API:** [https://sportomic-tau.vercel.app/](https://sportomic-tau.vercel.app/)  
-- **Frontend Dashboard:** [https://sportomic-tau.vercel.app/](https://sportomic-tau.vercel.app/)  
+- **Frontend Dashboard:** [https://sportomic-mezk.vercel.app/](https://sportomic-mezk.vercel.app/)  
 
 ---
 
