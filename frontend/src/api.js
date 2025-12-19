@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8081/api";
+const BASE_URL = "https://sportomic-tau.vercel.app/api";
 
 export const fetchVenues = async () => {
   const res = await fetch(`${BASE_URL}/venues`);
