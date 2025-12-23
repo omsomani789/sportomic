@@ -15,12 +15,12 @@ router.get("/", async (req, res) => {
 
 // Create transaction
 router.post("/", async (req, res) => {
-  const { booking_id, amount, payment_method, status } = req.body;
+  const { booking_id, type, amount, status } = req.body;
   try {
     const result = await pool.query(
-      `INSERT INTO transactions (booking_id, amount, payment_method, status)
+      `INSERT INTO transactions (booking_id, type,amount, status)
        VALUES ($1,$2,$3,$4) RETURNING *`,
-      [booking_id, amount, payment_method, status]
+      [booking_id, type, amount, status]
     );
     res.status(201).json(result.rows[0]);
   } catch (err) {
